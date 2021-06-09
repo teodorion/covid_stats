@@ -399,7 +399,7 @@ if 1
         ikk
         vv = VV{ikk};
         dd = DD{ikk};
-        subplot(2,2,ikkk);
+        subplot(5,9,ikkk);
         if  ~strcmpi(CCL(ikk), 'Romania')
             plot(datetime(dd,'ConvertFrom','datenum'), vv, 'color', colmap(ikkk,:), 'linewidth', 3);
             text(datetime(dd(fix(end/2)),'ConvertFrom','datenum'), vv(fix(end/2)), CCL(ikk), 'color', 'k', 'FontSize', 15, 'FontWeight', 'b');
